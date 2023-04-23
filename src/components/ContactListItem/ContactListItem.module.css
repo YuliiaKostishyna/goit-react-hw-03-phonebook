@@ -1,0 +1,11 @@
+.delete {
+    width: 70px;
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.delete:hover,
+.delete:focus {
+    background-color: red;
+   
+}
