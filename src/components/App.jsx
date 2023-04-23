@@ -36,8 +36,6 @@ export class App extends Component {
     this.setState({ number: event.target.value });
   };
 
-
-
   handleSubmit = event => {
     event.preventDefault();
 const newContact =  { id: nanoid(), name: this.state.name, number: this.state.number }
